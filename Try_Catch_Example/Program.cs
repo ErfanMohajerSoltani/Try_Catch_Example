@@ -22,6 +22,11 @@ namespace Try_Catch_Example
             {
                 Console.WriteLine("ERROR!!!");
             }
+            // the body of finally will execute at the end and doesn't matter the try compiled or catch
+            finally
+            {
+                Console.WriteLine("This is the body of finally command!");
+            }
 
         }
     }
